@@ -1,0 +1,21 @@
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a href="#" (click)="closeNav()">About</a>
+    <a href="#" (click)="closeNav()">Services</a>
+    <a href="#" (click)="closeNav()">Clients</a>
+    <a href="#" (click)="closeNav()">Contact</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
+
+  <!-- <mat-sidenav-container
+    class="example-container" (backdropClick)="close('backdrop')">
+  <mat-sidenav #sidenav (keydown.escape)="close('escape')" disableClose>
+    <p><button mat-button (click)="close('toggle button')">Toggle</button></p>
+    
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <p><button mat-button (click)="sidenav.open()">Open</button></p>       
+  </mat-sidenav-content>
+</mat-sidenav-container> -->
